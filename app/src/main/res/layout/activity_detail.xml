@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:id="@+id/Relative">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pga1"
+        android:src="@android:color/holo_green_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pga1"
+        android:layout_marginTop="-83dp"
+        android:layout_marginVertical="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_playername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="@string/playername" />
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="@string/location" />
+        <TextView
+            android:id="@+id/tv_contry"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="@string/country" />
+        <TextView
+            android:id="@+id/tv_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="@string/year" />
+
+        <TextView
+            android:id="@+id/tv_majorwin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="@string/majorwin" />
+        <TextView
+            android:id="@+id/tv_turnamenwin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="@string/turnamenwin" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

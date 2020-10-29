@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PGA Tour</string>
+    <string name="playername">playername</string>
+    <string name="location">location</string>
+    <string name="country">country</string>
+    <string name="year">year</string>
+    <string name="majorwin">majorwin</string>
+    <string name="turnamenwin">turnamenwin</string>
+    <string name="about">about</string>
+</resources>
